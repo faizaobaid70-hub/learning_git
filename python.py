@@ -5,6 +5,8 @@ def calculator (a,b,op):
         return a-b
     elif op == '*':
         return a*b
+    elif op == '**':
+        return a**b
     elif op == '/':
         if b!= 0:
             return a/b
