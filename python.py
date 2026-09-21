@@ -10,5 +10,15 @@ def calculator (a,b,op):
             return a/b
         else:
             return "Division by zero is not allowed"
+    elif op == '%':
+        if b!= 0:
+            return a%b
+        else:
+            return "Division by zero is not allowed"
     else:
         return "Invalid operation"
+
+a = int(input("enter first number:"))
+b = int(input("enter second number:"))
+op = input("enter operation(+,-,*,/,%):")
+result = calculator(a,b,op)
