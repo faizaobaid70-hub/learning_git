@@ -12,3 +12,6 @@ def calculator (a,b,op):
             return "Division by zero is not allowed"
     else:
         return "Invalid operation"
+
+a = int(input("enter first number:"))
+b = int(input("enter second number:"))
